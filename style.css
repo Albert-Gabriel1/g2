@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1em;
+   line-height: 1.5em;
+}
+header{
+    background-color:#32b5be;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+#logo{
+    position: absolute;
+    left: 50%;
+    height: 55px;
+    width: 55px;
+}
+#pai{
+    display: flex;
+    flex-flow: row wrap;   
+}
+.filho{
+    display: flex;
+    flex: 1 1 50px;
+    
+}
+.filho:hover{
+    text-decoration: underline;
+}
+#conta{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+#conta:hover{
+    color: red;
+}
+#perfil{
+    height: 25px;
+}
+a{
+    font-family: "BBH Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+#globo{
+    color: rgb(0, 132, 255);
+}
+#g2{
+    color: #32b5be;
+}
+#ge{
+    color: rgb(16, 160, 16);
+}
+#gshow{
+    color: rgb(255, 153, 35);
+}
+#gbplay{
+    color: #FB0334;
+}
+#g1jogos{
+    color: #C9170C;
+}
+#o-globo{
+    color:#1E4C9A ;
+}
+#valor{
+    color: #006767;
+}
+.imgart{
+    
+    display: block;
+    min-height: 200px;
+    width: 400px; 
+    flex-shrink: 0;
+    padding: 10px;
+}
+.artigo{
+    display: flex;
+    flex-flow: row wrap;
+}
+.img2{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+p{
+    font-size: larger;
+}
+h2,ul{
+    color: #C9170C;
+}
+ul{
+    font-size: smaller;
+}
+.seção{
+    text-align: justify;
+    width: 900px;
+    height: 250px;
+    margin: auto;   
+    padding: 20px;
+    text-align: left;
+}
+#modo-escuro{
+    padding: 5px;
+    width: 55px;
+    height: 55px;
+}
+#modo-escuro:hover{
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#modo-escuro:hover:hover{
+    
+    transform: rotate(360deg);
+}
+.texto{
+    padding: 5px;
+    flex:1 1 150px
+}
+@media screen and (min-width: 700px) and (max-width: 950px){
+    .seção{
+        width: 700px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:700px) {
+    .seção{
+        width: 500px;
+    }
+    .imgart{
+        width: 300px;
+        height: 150px;
+    }
+    
+}
