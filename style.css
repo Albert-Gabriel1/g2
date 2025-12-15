@@ -28,6 +28,11 @@ header{
 .filho{
     display: flex;
     flex: 1 1 50px;
+    font-family: "BBH Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    text-decoration: none;
     
 }
 .filho:hover{
@@ -48,10 +53,6 @@ header{
     height: 25px;
 }
 a{
-    font-family: "BBH Hegarty", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-    padding: 5px;
     text-decoration: none;
     
 }
@@ -97,10 +98,12 @@ a{
     height: 100%;
 }
 p{
+    padding: 5px;
     font-size: larger;
 }
 h2,ul{
     color: #C9170C;
+    padding: 5px;
 }
 ul{
     font-size: smaller;
@@ -127,7 +130,7 @@ ul{
     transform: rotate(360deg);
 }
 .texto{
-    padding: 5px;
+    padding: 7px;
     flex:1 1 150px
 }
 @media screen and (min-width: 700px) and (max-width: 950px){
