@@ -175,9 +175,10 @@ ul{
     .artigo{
     display: flex;
     flex-flow: column wrap;
+    }
     .texto{
     padding: 7px;
     flex:1 1 100px
+    }
 }
-}
-}
+
