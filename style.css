@@ -14,7 +14,6 @@ body,html{
 }
 main{
     min-height: 100vh;
-    min-width: 100vw;
 }
 header{
     background-image: linear-gradient( to right, #0B4F8A,#2e6de4,#ecba6e,#F28C28);
@@ -92,7 +91,7 @@ a{
     
     display: block;
     min-height: 200px;
-    width: 400px; 
+    max-width: 400px; 
     flex-shrink: 0;
     padding: 10px;
 }
@@ -103,7 +102,7 @@ a{
 .img2{
     border-radius: 10px;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 p{
     padding: 5px;
@@ -118,8 +117,8 @@ ul{
 }
 .seção{
     text-align: justify;
-    width: 900px;
-    height: 250px;
+    max-width: 900px;
+    height: auto;
     margin: auto;   
     padding: 20px;
     text-align: left;
@@ -133,7 +132,7 @@ ul{
     cursor: pointer;
     transition: 0.5s ease;
 }
-#modo-escuro:hover:hover{
+#modo-escuro:hover{
     
     transform: rotate(360deg);
 }
