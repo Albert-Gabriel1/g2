@@ -165,7 +165,7 @@ ul{
 @media screen and (min-width:300px) and (max-width:500px) {
     .seção{
         width: 300px;
-        height: 200px;
+        height: 250px;
     }
     .imgart{
         width: 100%;
