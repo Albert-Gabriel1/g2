@@ -9,9 +9,12 @@ body,html{
    line-height: 1.5em;
    min-height: 100vh;
    min-height: 100%;
+   min-width: 100vw;
+   min-width: 100%;
 }
 main{
     min-height: 100vh;
+    min-width: 100vw;
 }
 header{
     background-image: linear-gradient( to right, #0B4F8A,#2e6de4,#ecba6e,#F28C28);
@@ -172,5 +175,9 @@ ul{
     .artigo{
     display: flex;
     flex-flow: column wrap;
+    .texto{
+    padding: 7px;
+    flex:1 1 100px
+}
 }
 }
