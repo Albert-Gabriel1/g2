@@ -3,14 +3,15 @@
     margin: 0;
     padding: 0;
 }
-body{
+body,html{
    font-family: Arial, Helvetica, sans-serif;
    font-size: 1em;
    line-height: 1.5em;
    min-height: 100vh;
+   min-height: 100%;
 }
 main{
-    min-height: 100%;
+    min-height: 100vh;
 }
 header{
     background-image: linear-gradient( to right, #0B4F8A,#2e6de4,#ecba6e,#F28C28);
