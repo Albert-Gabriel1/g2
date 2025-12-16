@@ -7,6 +7,10 @@ body{
    font-family: Arial, Helvetica, sans-serif;
    font-size: 1em;
    line-height: 1.5em;
+   height: 100vh;
+}
+main{
+    min-height: 100%;
 }
 header{
     background-image: linear-gradient( to right, #0B4F8A,#2e6de4,#ecba6e,#F28C28);
