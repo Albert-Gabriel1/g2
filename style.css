@@ -162,9 +162,9 @@ ul{
     flex-flow: row wrap;
 }
 }
-@media screen and (min-width:300px) and (max-width:500px) {
+@media screen and (min-width:350px) and (max-width:500px) {
     .seção{
-        width: 300px;
+        width: 350px;
         height: 400px;
     }
     .imgart{
