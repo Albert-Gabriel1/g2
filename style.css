@@ -169,7 +169,7 @@ ul{
     }
     .imgart{
         width: 100%;
-        height: 250px;
+        height: 90px;
         margin: auto;
     }
     .artigo{
@@ -178,7 +178,7 @@ ul{
     }
     .texto{
     padding: 7px;
-    flex:1 1 100px
+    flex:1 1 90px
     }
 }
 
