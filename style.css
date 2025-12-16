@@ -156,13 +156,13 @@ ul{
     }
     .artigo{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }
 }
 @media screen and (min-width:300px) and (max-width:500px) {
     .seção{
         width: 300px;
-        height: 400px;
+        height: 200px;
     }
     .imgart{
         width: 100%;
