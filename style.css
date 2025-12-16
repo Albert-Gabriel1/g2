@@ -170,11 +170,11 @@ ul{
     .imgart{
         width: 100%;
         height: 90px;
-        margin: auto;
+        margin: 10px auto;
     }
     .artigo{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     }
     .texto{
     padding: 7px;
