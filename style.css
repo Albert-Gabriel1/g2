@@ -171,6 +171,9 @@ ul{
         height: 90px;
         margin: 10px auto;
     }
+    .filho{
+        border: 1px solid black;
+    }
     .artigo{
     display: flex;
     flex-flow: row wrap;
