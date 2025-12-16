@@ -9,7 +9,7 @@ body{
    line-height: 1.5em;
 }
 header{
-    background-color:#32b5be;
+    background-image: linear-gradient( to right, #0B4F8A,#2e6de4,#ecba6e,#F28C28);
     display: flex;
     align-items: center;
     justify-content: space-between;

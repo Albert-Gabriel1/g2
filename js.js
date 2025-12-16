@@ -14,3 +14,4 @@ function clicou(){
     lua.src = 'imagens/lua.png'
     }    
 }
+
