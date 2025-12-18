@@ -91,7 +91,7 @@ a{
 .imgart{
     
     display: block;
-    max-height: 200px;
+    min-height: 200px;
     max-width: 400px; 
     flex-shrink: 0;
     padding: 10px;
@@ -144,6 +144,7 @@ ul{
 @media screen and (min-width: 750px) and (max-width: 950px){
     .seção{
         min-width: 700px;
+        min-height: 450px;
     }
 }
 @media screen and (min-width:550px) and (max-width:700px) {
@@ -165,11 +166,12 @@ ul{
 @media screen and (min-width:350px) and (max-width:500px) {
     .seção{
         min-width: 300px;
-        min-height: 500px;
+        min-height: 400px;
+        margin-bottom: 10px;
     }
     .imgart{
         width: 100%;
-        height: 90px;
+        min-height: 90px;
         margin: 10px auto;
     }
     .filho{
@@ -181,10 +183,11 @@ ul{
     }
     .texto{
     padding: 7px;
-    flex:1 1 90px
+    flex:1 1 70px
     }
 }
 #footer1{
+    margin: 10px;
     min-height:80px ;
     background-image: linear-gradient(to left ,#0B4F8A,#2e6de4,#ecba6e,#F28C28);
 }
