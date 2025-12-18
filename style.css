@@ -140,12 +140,12 @@ ul{
     padding: 7px;
     flex:1 1 150px
 }
-@media screen and (min-width: 700px) and (max-width: 950px){
+@media screen and (min-width: 750px) and (max-width: 950px){
     .seção{
         width: 700px;
     }
 }
-@media screen and (min-width:500px) and (max-width:700px) {
+@media screen and (min-width:550px) and (max-width:700px) {
     .seção{
         width: 500px;
         height: 400px;
@@ -163,7 +163,7 @@ ul{
 }
 @media screen and (min-width:350px) and (max-width:500px) {
     .seção{
-        width: 350px;
+        width: 300px;
         height: 400px;
     }
     .imgart{
