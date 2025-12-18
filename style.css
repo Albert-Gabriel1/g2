@@ -91,7 +91,7 @@ a{
 .imgart{
     
     display: block;
-    min-height: 200px;
+    max-height: 200px;
     max-width: 400px; 
     flex-shrink: 0;
     padding: 10px;
