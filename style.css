@@ -49,7 +49,7 @@ header{
 #conta{
     display: flex;
     align-items: center;
-    width: 150px;
+    min-width: 150px;
     height: 30px;
     text-align: center;
     color: black;
@@ -143,13 +143,13 @@ ul{
 }
 @media screen and (min-width: 750px) and (max-width: 950px){
     .seção{
-        width: 700px;
+        min-width: 700px;
     }
 }
 @media screen and (min-width:550px) and (max-width:700px) {
     .seção{
         width: 500px;
-        height: 400px;
+        min-height: 450px;
         
     }
     .imgart{
@@ -164,8 +164,8 @@ ul{
 }
 @media screen and (min-width:350px) and (max-width:500px) {
     .seção{
-        width: 300px;
-        height: 400px;
+        min-width: 300px;
+        min-height: 500px;
     }
     .imgart{
         width: 100%;
