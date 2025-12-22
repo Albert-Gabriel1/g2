@@ -131,7 +131,7 @@ ul{
 }
 #modo-escuro:hover{
     cursor: pointer;
-    transition: 0.5s ease;
+    transition: 1.1s ease;
 }
 #modo-escuro:hover{
     
@@ -141,10 +141,58 @@ ul{
     padding: 7px;
     flex:1 1 150px
 }
+
+#footer1{
+    min-height:80px ;
+    background-image: linear-gradient(to left ,#0B4F8A,#2e6de4,#ecba6e,#F28C28);
+}
+#pf1{
+    width: 120px;
+    color: rgb(228, 226, 226);
+    font-size: medium;
+}
+#pf1:hover{
+    text-decoration: underline; 
+}
+#pf2{
+    font-size: small;
+    color: rgb(241, 241, 241);
+}
+form{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: flex;
+    text-align: center;
+    
+}
+.linhaf1{
+    border: 1px solid black;
+    flex: flex;
+}
+.linhaf2{
+    border: 1px solid black;
+    flex: flex;
+}
+.botão{
+    padding: 5px;
+    background-color: #0B4F8A;
+    color: #F28C28;
+    font-size: 1.2em;
+}
+.botão:hover{
+    transition: 0.5s ease;
+    background-color: #F28C28;
+    color: #0B4F8A;
+}
 @media screen and (min-width: 750px) and (max-width: 950px){
     .seção{
         min-width: 700px;
         min-height: 450px;
+    }
+    form{
+       flex-flow: column wrap; 
     }
 }
 @media screen and (min-width:550px) and (max-width:700px) {
@@ -161,6 +209,9 @@ ul{
     .artigo{
     display: flex;
     flex-flow: row wrap;
+}
+form{
+    flex-flow: column wrap;
 }
 }
 @media screen and (min-width:350px) and (max-width:500px) {
@@ -188,24 +239,7 @@ ul{
     .logo{
         max-height:55px ;
     }
+    form{
+        flex-flow:column wrap ;
+    }
 }
-#footer1{
-    min-height:80px ;
-    background-image: linear-gradient(to left ,#0B4F8A,#2e6de4,#ecba6e,#F28C28);
-}
-#pf1{
-    width: 120px;
-    color: rgb(228, 226, 226);
-    font-size: medium;
-}
-#pf1:hover{
-    text-decoration: underline; 
-}
-#pf2{
-    font-size: small;
-    color: rgb(241, 241, 241);
-}
-form{
-    border: ;
-}
-
