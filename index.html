@@ -18,13 +18,13 @@
         <a href="https://oglobo.globo.com/" target="_blank" rel="noopener noreferrer" class="filho" id="o-globo">oglobo</a>
         <a href="https://valor.globo.com/" target="_blank" rel="noopener noreferrer" class="filho" id="valor">valor</a>
         
-        <a href="#formulario" id="conta"rel="noopener noreferrer"><img src="imagens/perfil.png" alt="" id="perfil">acessar conta</a>
+        <a href="#formulario" id="conta"rel="noopener noreferrer"><img src="imagens/perfil.png" alt="" id="perfil"><p id="login">acessar conta</p></a>
         
         
     </nav>
     <header id="topo">
         <img src="imagens/0de140f0-035b-477a-9781-7943b05d3d62.png" alt="" class="logo">
-        <img src="imagens/lua.png" alt=""onclick="clicou()" ondblclick="clicou2()" id="modo-escuro">
+        <img src="imagens/lua.png" alt=""onclick="clicou()" id="modo-escuro">
     </header>
     <main>
         <section class="seção">
@@ -100,6 +100,29 @@
             </article>
         </section>
         <hr>
+        <section class="seção">
+            <article class="artigo">
+                <form action="" method="get" id="formulario">
+                    <p>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" required placeholder="Seu nome">
+                    </p>
+                    <p>
+                        <label for="idade">Ano de nascimento</label>
+                        <input type="number" name="idade" id="idade" required placeholder="2000">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="kletinho@gmail.com">
+                    </p>
+                    <p>
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" required minlength="4" placeholder="Sua senha" autocomplete="current-password">
+                    </p>
+                    <input type="button" value="Envia" onclick="clicou2()">
+                </form>
+            </article>
+        </section>
     </main>
     <footer id="footer1">
         <img src="imagens/0de140f0-035b-477a-9781-7943b05d3d62.png" alt="" class="logo">
