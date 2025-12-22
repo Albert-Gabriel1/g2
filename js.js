@@ -23,6 +23,7 @@
         let senha = document.getElementById('senha').value;
         let login = document.getElementById('login')
         let email = document.getElementById('email').value
+        let login2 = document.getElementById('login2')
         let itemespecial = /[^a-zA-Z0-9]/;
 
         localStorage.setItem('nome',nome)
@@ -61,5 +62,5 @@
             alert('Coloque alguma idade valida')
             return;
         } 
-        
+        login2.innerHTML = `Idade: ${idade}`
 }

@@ -65,8 +65,9 @@ header{
 #conta:hover{
     color: red;
 }
-#perfil{
-    height: 25px;
+.perfil{
+    height: 30px;
+    
 }
 a{
     text-decoration: none;
@@ -96,6 +97,17 @@ a{
 #valor{
     color: #006767;
 }
+#login{ 
+    margin: 4px;
+    border: 1px solid black;
+    box-shadow: 5px 3px 2px black;
+}
+#login2{
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 5px 3px 2px black;
+}
+
 .imgart{
     
     display: block;
